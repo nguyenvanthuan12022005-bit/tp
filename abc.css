@@ -1,0 +1,165 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background: white;
+    border-bottom:1px solid #eee;
+}
+
+.back {
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.header h2 {
+    margin: 0;
+	font-size:18px;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+	padding-bottom:90px;
+}
+
+.c1{
+    background: #7bdfff;
+    color: black;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom:10px;
+}
+
+.select-all{
+	display:flex;
+	margin-bottom: 10px;
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cart{
+	display:flex;
+	align-items:center;
+	background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.cart input {
+    margin-right: 10px;
+}
+.cart img {
+    width: 90px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+ .info {
+    flex: 1;
+}
+.info p {
+    margin: 0 0 6px;
+    font-size: 15px;
+}
+.price {
+    color: #e60000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.old.price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+.soluong {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.soluong button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.soluong span {
+    width: 40px;
+    text-align: center;
+}
+.delete {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.delete:hover {
+    color: red;
+}
+.uudai {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: -10px;
+	margin-bottom:5px;
+}
+
+.uudai p {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.uudai ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.uudai li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #eee;
+}
+.footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer span {
+    color: #e60000;
+}
+.buy {
+    background: #7bdfff;
+    color: black;
+    padding: 10px 30px;
+	border:none;
+    border-radius: 8px;
+    cursor: pointer;
+	font-size:16px;
+}
+
+.buy:hover {
+    background: #3fb3cc;
+}

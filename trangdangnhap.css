@@ -1,0 +1,70 @@
+ body 
+ {
+    background: #7bdfff;
+    font-family: Arial;
+}
+
+.container 
+{
+    width: 400px;
+    margin: 50px auto;
+    border: 3px solid black;
+    background: white;
+}
+.header 
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.header button 
+{
+    background: #ccc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.form 
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.form button.small 
+{
+    background: #ccc;
+    border: none;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+input
+ {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #ccc;
+    border: none;
+}
+
+.login-btn 
+{
+    width: 90%;
+    padding: 12px;
+    background:#7bdfff ;
+    border: none;
+    margin-top: 10px;
+}
+
+p 
+{
+    margin-top: 15px;
+}
+
+a 
+{
+    color: #00aaff;
+    text-decoration: none;
+}

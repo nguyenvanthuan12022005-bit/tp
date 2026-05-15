@@ -1,0 +1,270 @@
+.hang{
+	display:flex;
+}
+a{
+	text-decoration: none;
+}
+#top-bar{
+	background:#7bdfff;
+    color: white;
+    font-size:15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+#h1{
+	background-color:#7bdfff;
+	height:80px;
+	width:100%;
+}
+#c1{
+	display:flex;
+	height:80px;
+	width:40px;
+	margin-left:100px;
+
+}
+#c2 input{
+	display:flex;
+	margin-left:250px;
+	height:40px;
+	width:400px;
+	margin-top:20px;
+	border-radius:20px;
+}
+#c3{
+	display:flex;
+	margin-left:60px;
+	margin-top:20px;
+	font-size:18px;
+}
+#c3:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}
+#c4{
+	display:flex;
+	margin-left:60px;
+	margin-top:20px;
+	font-size:18px;
+}
+#c4:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}
+#c5{
+	display:flex;
+	margin-left:150px;
+	margin-top:20px;
+	font-size:18px;
+}
+#c5:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}	
+
+#h3c1 img{
+		display:flex;
+		height:250px;
+		width:800px;
+		margin-top:15px;
+		border-radius:15px;
+	
+}
+#h3c2 img{
+		display:flex;
+		height:250px;
+		width:685px;
+		margin-top:15px;
+		margin-left:10px;
+		border-radius:15px;		
+}
+#h2{
+	justify-content: center;
+	margin-top:20px;
+	
+}
+#h2c1{
+	display:flex;
+	font-size:18px;
+	margin-right:150px;
+	background-color:#7bdfff;
+	height:40px;
+	width:100px;
+	justify-content: center;
+	align-items:center;
+	border-radius:10px;
+	margin-bottom:5px;
+}
+#h2c1:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+	
+}
+#h2c2 {
+	display:flex;
+	font-size:18px;
+	margin-right:150px;
+	background-color:#7bdfff;
+	height:40px;
+	width:100px;
+	justify-content: center;
+	align-items:center;
+	border-radius:10px;
+	margin-bottom:5px;
+
+}
+#h2c2:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}
+#h2c3{
+	display:flex;
+	font-size:18px;
+	margin-right:150px;
+	background-color:#7bdfff;
+	height:40px;
+	width:100px;
+	justify-content: center;
+	align-items:center;
+	border-radius:10px;
+	margin-bottom:5px;
+}
+#h2c3:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}
+#h2c4{
+	display:flex;
+	font-size:18px;
+	margin-right:150px;
+	background-color:#7bdfff;
+	height:40px;
+	width:100px;
+	justify-content: center;
+	align-items:center;
+	border-radius:10px;
+	margin-bottom:5px;
+}
+#h2c4:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}
+#h2c5{
+	display:flex;
+	font-size:18px;
+	background-color:#7bdfff;
+	height:40px;
+	width:100px;
+	justify-content: center;
+	align-items:center;
+	border-radius:10px;
+	margin-bottom:5px;
+}
+#h2c5:hover{
+	background:#3fb3cc;
+	border-radius:40px;
+}
+#h4c1 img {
+	display:flex;
+	margin-top: 20px;
+	height:350px;
+	width:1490px;
+	border-radius:18px;
+}
+#h5c1{ 
+	display:flex;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    margin-top:20px;
+	margin-left:40px;
+	height:60px;
+	width:300px;
+	align-items:center;
+}
+#h6{
+	 display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+	margin:15px 20px 0px 20px;
+	background-color:#d9d9d9;
+}
+.sale {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+.sp {
+    background: white;
+    padding: 10px;
+	border:1px solid;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    transition: 0.2s;
+}
+.sp:hover {
+    transform: translateY(-5px);
+}
+.sp img {
+    height: 200px;
+    width:100%;
+}
+.sp p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.price {
+    color: red;
+    font-weight: bold;
+    display: block;
+}
+.old {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+.rating {
+    margin-top: 5px;
+    color: orange;
+}
+#h7{
+	display:flex;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    margin-top:20px;
+	margin-left:40px;
+	height:60px;
+	width:300px;
+	align-items:center;
+}
+#h8{
+	 display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+	margin:15px 20px 0px 20px;
+	background-color:#d9d9d9;
+}
+#h9{
+	 display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+	margin:20px 20px 0px 20px;
+	background-color:#d9d9d9;
+	font-size:20px;
+}
+#lienhe{
+	display:flex;
+	height:50px;
+	width:50px;
+	gap: 5px;
+}
+	
+	
